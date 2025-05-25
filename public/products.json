@@ -1,0 +1,31 @@
+{
+  "featured": [
+    "product-1"
+  ],
+  "categories": [
+    {
+      "id": "main-category",
+      "name": "Manufacturing Solutions",
+      "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop",
+      "products": [
+        {
+          "id": "product-1",
+          "name": "Premium Service Package",
+          "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=300&h=200&fit=crop",
+          "description": "Our flagship offering designed to meet your specific needs",
+          "applications": [
+            "Commercial",
+            "Industrial",
+            "Residential"
+          ],
+          "specifications": [
+            "High Quality",
+            "Professional Grade",
+            "Certified"
+          ]
+        }
+      ],
+      "description": "Professional manufacturing products and services"
+    }
+  ]
+}
