@@ -1,0 +1,264 @@
+{
+  "site": {
+    "logo": "/assets/logo.png",
+    "title": "Jamnagar Brass Industries - Professional Industry Services",
+    "description": "Jamnagar Brass Industries is a leading manufacturer and exporter of precision brass components, including brass spark plugs, turned parts, and custom-engineered fittings. With a strong focus on quality and reliability, we serve industries worldwide with high-performance brass solutions made in India."
+  },
+  "footer": {
+    "enabled": true,
+    "copyright": "© 2024 Jamnagar Brass Industries. All rights reserved.",
+    "quickLinks": [
+      {
+        "url": "#about",
+        "text": "About Us"
+      },
+      {
+        "url": "#services",
+        "text": "Services"
+      },
+      {
+        "url": "#products",
+        "text": "Products"
+      },
+      {
+        "url": "#contact",
+        "text": "Contact"
+      }
+    ],
+    "socialLinks": [
+      {
+        "url": "https://linkedin.com/company/jamnagarbrassindustries",
+        "icon": "linkedin",
+        "platform": "LinkedIn"
+      },
+      {
+        "url": "https://facebook.com/jamnagarbrassindustries",
+        "icon": "facebook",
+        "platform": "Facebook"
+      }
+    ]
+  },
+  "sections": {
+    "hero": {
+      "enabled": true,
+      "headline": "Precision Brass Components for Every Industry",
+      "primaryCTA": {
+        "link": "#quote",
+        "text": "Get Quote"
+      },
+      "subheadline": "High-performance solutions made in India",
+      "secondaryCTA": {
+        "link": "#services",
+        "text": "Our Services"
+      },
+      "backgroundImage": "https://images.unsplash.com/photo-1581093588400-4c2c7cd39b4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEwNXx8Y29tcGFueSUyMG1hbnVmYWN0dXJpbmd8ZW58MHx8fHwxNjc4NjE5NTY3&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "about": {
+      "stats": [
+        {
+          "label": "Years Experience",
+          "number": "35+"
+        },
+        {
+          "label": "Projects Completed",
+          "number": "1000+"
+        },
+        {
+          "label": "Success Rate",
+          "number": "99.9%"
+        },
+        {
+          "label": "Support",
+          "number": "24/7"
+        }
+      ],
+      "title": "About Jamnagar Brass Industries",
+      "enabled": true,
+      "description": "With 35 years of experience, Jamnagar Brass Industries is a premier manufacturer and exporter specializing in precision brass components tailored to meet the needs of various industries worldwide. Our commitment to quality and customer satisfaction drives us to deliver unmatched products and services."
+    },
+    "quote": {
+      "title": "Request a Quote",
+      "fields": [
+        {
+          "name": "name",
+          "type": "text",
+          "label": "Full Name",
+          "required": true
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "label": "Email Address",
+          "required": true
+        },
+        {
+          "name": "company",
+          "type": "text",
+          "label": "Company",
+          "required": false
+        },
+        {
+          "name": "phone",
+          "type": "tel",
+          "label": "Phone Number",
+          "required": false
+        },
+        {
+          "name": "service",
+          "type": "select",
+          "label": "Service Required",
+          "options": [
+            "Custom Brass Components",
+            "Brass Spark Plugs",
+            "Other"
+          ],
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "textarea",
+          "label": "Project Description",
+          "required": true
+        }
+      ],
+      "enabled": true,
+      "subtitle": "Get started with your project today",
+      "submitUrl": "/api/send-enquiry"
+    },
+    "contact": {
+      "email": "ramkatarmal5@gmail.com",
+      "hours": {
+        "weekend": "Saturday: 8:00 AM - 2:00 PM",
+        "weekdays": "Monday - Friday: 8:00 AM - 6:00 PM"
+      },
+      "phone": "+91 9016578784",
+      "title": "Get In Touch",
+      "address": {
+        "zip": "361001",
+        "city": "Jamnagar",
+        "state": "Gujarat",
+        "street": "Jamnagar, Gujarat",
+        "country": "India"
+      },
+      "enabled": true,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.2623!2d70.05603521507096!3d22.47024668508426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be1f4c7bdf9c6e5%3A0x4a6f3d1eaa3b4c9d!2sJamnagar%2C%20Gujarat%2C%20India!5e0!3m2!1sen!2sus!4v1696236123456",
+      "whatsapp": "+91 9016578784"
+    },
+    "gallery": {
+      "title": "Our Work Gallery",
+      "images": [
+        {
+          "alt": "Manufacturing Process",
+          "url": "https://images.unsplash.com/photo-1565574237-5cbf5f8d7de6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG1hbnVmYWN0dXVyJ3xlbnwwfHx8fDE2Nzg2MTk3NTI&ixlib=rb-4.0.3&q=80&w=1080",
+          "caption": "Precision manufacturing in action"
+        },
+        {
+          "alt": "Final Products",
+          "url": "https://images.unsplash.com/photo-1582506155574-c1c4d7e5f7c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fG1hbnVmYWN0dXVyJ3xlbnwwfHx8fDE2Nzg2MTk3NTI&ixlib=rb-4.0.3&q=80&w=1080",
+          "caption": "Showcasing our high-quality brass components"
+        }
+      ],
+      "enabled": true
+    },
+    "features": {
+      "items": [
+        {
+          "icon": "check",
+          "title": "Quality Assurance",
+          "description": "We adhere to strict quality standards to ensure all products meet client specifications."
+        },
+        {
+          "icon": "clock",
+          "title": "Timely Delivery",
+          "description": "We prioritize deadlines and ensure timely delivery of all orders."
+        },
+        {
+          "icon": "shield",
+          "title": "Durability",
+          "description": "Our products are designed to withstand rigorous use across various applications."
+        },
+        {
+          "icon": "users",
+          "title": "Expert Team",
+          "description": "Our skilled professionals are dedicated to providing excellent service and support."
+        }
+      ],
+      "title": "Why Choose Our Services",
+      "enabled": true
+    },
+    "products": {
+      "title": "Our Products",
+      "enabled": true,
+      "subtitle": "Quality products for your needs"
+    },
+    "services": {
+      "items": [
+        {
+          "image": "https://images.unsplash.com/photo-1552534806-9b5c4d9da6c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDUwfHxicmFzcyUyMG1hbnVmYWN0dXVyZXxlbnwwfHx8fDE2Nzg2MTk3NTI&ixlib=rb-4.0.3&q=80&w=1080",
+          "title": "Custom Brass Components",
+          "features": [
+            "Precision machining",
+            "Quality materials",
+            "Custom designs",
+            "Rapid prototyping"
+          ],
+          "description": "We manufacture custom brass components tailored to your specific requirements."
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1551691841-7c1fbfa3f1e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDI4MHx8YnJhc3MlMjBzcGFyayUyMHBsdWdzfGVufDB8fHx8MTY3ODYxOTc1Mg&ixlib=rb-4.0.3&q=80&w=1080",
+          "title": "Brass Spark Plugs",
+          "features": [
+            "High performance",
+            "Reliability",
+            "Long lifespan",
+            "Cost-effective solutions"
+          ],
+          "description": "We produce high-quality brass spark plugs for various applications."
+        }
+      ],
+      "title": "Our Services",
+      "enabled": true
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us",
+      "points": [
+        {
+          "image": "https://images.unsplash.com/photo-1531206786658-6a6e1c5a5f9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fG1hbnVmYWN0dXVyaW5nfGVufDB8fHx8MTY3ODYxOTc1Mg&ixlib=rb-4.0.3&q=80&w=1080",
+          "title": "Expertise in Manufacturing",
+          "description": "Our extensive experience in brass component manufacturing ensures top-quality products."
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1597537681504-3bcd9d615a53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG1hbnVmYWN0dXVyJTIwZ2xvYmFsfGVufDB8fHx8MTY3ODYxOTc1Mg&ixlib=rb-4.0.3&q=80&w=1080",
+          "title": "Global Reach",
+          "description": "We serve clients across the globe, ensuring high-quality products are accessible worldwide."
+        }
+      ],
+      "enabled": true,
+      "subtitle": "The advantages of working with us"
+    },
+    "testimonials": {
+      "items": [
+        {
+          "text": "Jamnagar Brass Industries provided us with top-notch brass components that exceeded our expectations.",
+          "author": "Anil Gupta",
+          "avatar": "https://images.unsplash.com/photo-1544005313-94bb8e9b0c4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE0fHxhdmF0YXIlMjBpbWFnZXxlbnwwfHx8fDE2Nzg2MTk3NTI&ixlib=rb-4.0.3&q=80&w=1080",
+          "company": "Tech Innovations Ltd.",
+          "position": "Procurement Manager"
+        }
+      ],
+      "title": "What Our Clients Say",
+      "enabled": true
+    },
+    "certifications": {
+      "items": [
+        {
+          "name": "ISO 9001:2015",
+          "image": "https://images.unsplash.com/photo-1510976523010-2e6e4c1d7a3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDIwfHxDU1N8ZW58MHx8fHwxNjc4NjE5NzUy&ixlib=rb-4.0.3&q=80&w=1080",
+          "description": "Quality Management Systems"
+        }
+      ],
+      "title": "Certifications & Standards",
+      "enabled": true
+    }
+  }
+}
